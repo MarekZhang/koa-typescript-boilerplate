@@ -9,8 +9,12 @@
   "author": "Mark Zhang",
   "license": "MIT",
   "dependencies": {
+    "@types/koa__cors": "^3.1.1",
     "cors": "^2.8.5",
+    "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-jwt": "^4.0.3",
     "koa-router": "^10.1.1"
   },
   "devDependencies": {
