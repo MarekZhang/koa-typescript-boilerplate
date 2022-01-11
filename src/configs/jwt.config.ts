@@ -6,4 +6,4 @@ const JWTConfig: JWTConfig = {
   secret: 'jwt-secret-koa-typescrpit-boilerplalte',
 }
 
-export { JWTConfig }
+export default JWTConfig

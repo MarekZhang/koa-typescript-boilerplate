@@ -9,24 +9,26 @@
   "author": "Mark Zhang",
   "license": "MIT",
   "dependencies": {
-    "@types/koa__cors": "^3.1.1",
-    "cors": "^2.8.5",
+    "@koa/cors": "^3.1.0",
+    "dotenv": "^11.0.0",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.4",
     "koa-body": "^4.2.0",
+    "koa-helmet": "^6.1.0",
     "koa-jwt": "^4.0.3",
-    "koa-router": "^10.1.1"
+    "koa-router": "^10.1.1",
+    "pg": "^8.7.1",
+    "typeorm": "^0.2.41",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
-    "@koa/cors": "^3.1.0",
     "@tsconfig/node16": "^1.0.2",
     "@types/koa": "^2.13.4",
+    "@types/koa__cors": "^3.1.1",
     "@types/koa-router": "^7.4.4",
-    "koa-helmet": "^6.1.0",
     "nodemon": "^2.0.15",
     "ts-node": "^10.4.0",
-    "typescript": "^4.5.4",
-    "winston": "^3.3.3"
+    "typescript": "^4.5.4"
   },
   "nodemonConfig": {
     "ext": "*.ts,*.js",
