@@ -16,6 +16,7 @@ const connectionOptions: ConnectionOptions = {
   password: DBConfig.password,
   database: DBConfig.database,
   entities: DBConfig.dbEntitiesPath,
+  migrations: DBConfig.migrationsPath,
   logging: false,
   synchronize: true,
 }

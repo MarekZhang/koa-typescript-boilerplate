@@ -142,3 +142,6 @@ dist
 # cache of jupyter notebook
 
 .ipynb_checkpoints/
+
+# typeorm configuration file
+ormconfig.json

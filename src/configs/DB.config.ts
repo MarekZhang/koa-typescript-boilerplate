@@ -9,6 +9,7 @@ export interface DBConfig {
   password: string
   database: string
   dbEntitiesPath: string[]
+  migrationsPath: string[]
 }
 
 const isDevMode = process.env.NODE_ENV == 'development'
@@ -23,6 +24,7 @@ const DBConfig: DBConfig = {
   dbEntitiesPath: [
     ...(isDevMode ? ['src/entity/**/*.ts'] : ['dist/entity/**/*.js']),
   ],
+  migrationsPath: ['src/migration/**/*ts'],
 }
 
 export default DBConfig
